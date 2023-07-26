@@ -69,7 +69,6 @@ git push
 &nbsp;
 
 ## Contact
-Twitter - [@codingclubnitg](https://twitter.com/codingclubnitg)
 
 LinkedIn - [@codingclubnitg](https://www.linkedin.com/company/codingclubnitg/)
 
