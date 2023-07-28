@@ -1,0 +1,435 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-color: rgb(15, 15, 27);
+  color: antiquewhite;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background-color: rgb(255, 127, 176);
+}
+
+nav ul {
+
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul li a {
+
+  list-style: none;
+  color: white;
+  margin: 0 23px;
+}
+
+nav ul li a:hover {
+
+
+  color: rgb(169, 110, 110);
+  font-size: 1.04rem;
+}
+
+.left {
+
+  align-items: center;
+  margin-left: 70px;
+  font-size: 2rem;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4c51af;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.first {
+
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+
+.leftsection {
+  width: 30%;
+  font-size: 1.5rem;
+  margin: 50px;
+}
+
+.rightsection {
+  width: 30%;
+}
+
+.rightsection img {
+  width: 100%;
+
+}
+
+#element {
+  color: rgb(192, 192, 238);
+
+}
+
+main hr {
+  border: 0cap;
+  background-color: rgb(30, 15, 15);
+  height: 1.2px;
+  margin: 240px 50px 50px 50px;
+}
+
+.seconed {
+  margin: 50px;
+  max-width: 80vw;
+
+}
+
+/* ===== ABOUT =====*/
+.about {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+.about__img img {
+  width: 500px;
+  border-radius: .5rem;
+}
+
+.rightsection1 {
+  width: 60%;
+
+}
+
+.contener1 {
+  font-size: 1.4rem;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+ 
+}
+.hobi{
+  margin-top: 30px;
+  font-size: 1.02rem;
+  margin-left: -150px;
+  
+}
+.hobbies{
+  color:pink
+}
+.achive{
+  color:pink
+}
+.work{
+  color:pink
+}
+.yt{
+  margin-top: 30px;
+  font-size: 1.02rem;
+  margin-left: -350px;
+}
+
+
+
+.leftsection1 {
+  width: 35%;
+  text-align: center;
+}
+
+/*=====Skilla====*/
+h1{
+  text-align: center;
+  margin-bottom: 20px;
+}  
+h3{
+  width: 5px;
+
+}
+h4{
+  color: rgb(219, 12, 81);
+  text-align: end;
+}
+.skills{
+  width: 500px;
+  margin: 60px auto;
+  color: #fff;
+  padding: 20px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.skills li{
+  margin: 20px 0;
+  padding: 10px;
+  list-style: none;
+}
+.bar{
+  background: #353b48;
+  display: block;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.bar:hover{
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.bar span{
+  height: 20px;
+  float: left;
+  background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 103, 1)100%);
+}
+.html{
+  width: 90%;
+  animation: html 3s;
+}
+.css{
+  width: 80%;
+  animation: html 3s;
+}
+.javascript{
+  width: 70%;
+  animation: html 3s;
+}
+.MERN{
+  width: 60%;
+  animation: html 3s;
+}
+.c{
+  width: 90%;
+  animation: html 3s;
+}
+.C{
+  width: 80%;
+  animation: html 3s;
+}
+.solidity{
+  width: 60%;
+  animation: html 3s;
+}
+.dsa{
+  width: 60%;
+  animation: html 3s;
+}
+@keyframes html{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 90%;
+  }
+}
+@keyframes css{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 80%;
+  }
+}
+@keyframes javascript{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 70%;
+  }
+}
+@keyframes MERN{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 60%;
+  }
+}
+@keyframes c{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 90%;
+  }
+}
+@keyframes C{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 80%;
+  }
+}
+@keyframes solidity{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 60%;
+  }
+}
+@keyframes dsa{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 60%;
+  }
+}
+
+
+/* =====Projects=====*/
+.projects{
+  padding: 50px 0;
+}
+.project.section h1{
+  font-size: 2rem;
+}
+.project-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+.project{
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.project img{
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  transition:transform 0.5s;
+}
+.layer{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0,0,0,0.6), #af4e6d);
+  border-radius: 10px;
+  position: absolute;
+left: 0;
+bottom: 0;
+overflow: hidden;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+padding: 0 40px;
+text-align: center;
+font-size: 14px;
+}
+.layer h3{
+  font-weight: 500;
+  margin-bottom: 20px;
+
+}
+.layer a{
+  margin-top: 20px;
+  color: #1100ff;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  background: #e23b3b;
+  width: 60px;
+  height: 60px;
+
+  border-radius: 50%;
+  text-align: center;
+  transition: height 0.5s;
+}
+.project:hover img{
+transform: scale(1.1);
+
+}
+.project:hover.layer{
+  height: 100%;
+}
+.section-title{
+  font-size: 2rem;
+}
+.section-title:hover{
+  color: rgb(176, 10, 38);
+}
+
+
+
+
+
+/* ===== CONTACT =====*/
+.contact{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+.contact-title{
+  margin-bottom: 40px;
+  margin-top: 80px;
+  font-size: 2.5rem;
+}
+.contact-left{
+width: 35%;
+}
+.contact-right{
+width: 60%;
+}
+.contact-left p{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+.contact-left p a{
+  margin: 20px 10px;
+}
+.socia-icons a{
+  margin: 20px 10px;
+  font-size: 2rem;
+}
+form input, form textarea{
+  width: 90%;
+  border: 0;
+  outline: none;
+  background: #353b48;
+padding: 15px;
+margin: 15px 0;
+
+color: #353b48;
+font-size: 18px;
+border-radius: 6px;
+}
+form button{
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
+
+/* ===== FOOTER =====*/
+.footer {
+  background-color:whitesmoke;
+  color: #050505;
+  text-align: center;
+  font-weight: var(--font-semi);
+  padding: .5rem 0;
+}
+
+.footer__title {
+  font-size: 1.5rem;
+  margin-bottom: var(--mb-4);
+}
+
+
+
+.footer__icon {
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 0 var(--mb-2)
+}
