@@ -1,0 +1,67 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.nav-bar{
+    background-color: black;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-bar > button{
+    background-color: black;
+    color: white;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    margin-right:120px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.main{
+    padding :0px 10%;
+    background-color: black;
+    
+}
+
+.center {
+    margin-top: 0px;
+    padding-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-bottom: 50px;
+  }
+
+.main > p{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.non-anim-up{
+    opacity: 0;
+}
+
+.anim-up{
+    animation: fadeInUp 0.7s ease-out;/*slow arrival pref*/
+    animation-fill-mode: forwards;
+    animation-delay: 0.2s;
+}
+
+@keyframes fadeInUp{
+    0% {
+        opacity: 0;
+        transform: translateY(200px);
+     }
+     100% {
+        opacity: 1;
+        transform: translateY(0);
+     }
+}
