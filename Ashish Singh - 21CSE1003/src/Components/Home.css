@@ -1,0 +1,175 @@
+
+
+.name-title {
+    position: absolute;
+    /* top: 15rem; */
+    /* left: 2rem; */
+    /* width: 1vh; */
+    /* text-align: center; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* .name-title h2 {
+    position: relative;
+    width: 40rem;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+.name-title h1,
+.name-title h2 {
+  text-align: center;
+  justify-content: center;
+}
+
+
+.arrow-down {
+    position: absolute;
+    /* bottom: 3rem; */
+    /* justify-content: center; */
+    /* left: 48%; */
+    /* transform: translateX(-50%); */
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+}
+
+.download-cv {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    padding: 0px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.cv-button {
+    border: 2px solid black;
+    color: black;
+    font-family: "neuehaas55",sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1rem;
+    min-width: 10.2rem;
+    background-color: transparent;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+
+    transition-duration: 400ms;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+  }
+
+.cv-button:focus,
+.cv-button:active {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+  
+  .cv-button:hover {
+    background-color: black;
+    color: rgb(171, 7, 7);
+    cursor: url("../images/cursor/a.png"), auto;
+  }
+
+
+/* responsive styles */
+@media screen and (max-width: 600px) {
+    .home-background {
+        /* width: 100%;
+        height: auto;
+        max-width: 100vw;
+        content: url("../images/portrait-girl-2.jpg"); */
+        min-width: 100%;
+        min-height: 100svh;
+      }
+
+    .name-title {
+        position: absolute;
+        /* top: 24rem; */
+        /* left: 1rem; */
+        width: auto;
+        text-align: center;
+        /* DOJA CAT style */
+        top: 47%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .name-title h1 {
+        font-size: 25px;
+        letter-spacing: 0.5rem;
+        margin-bottom: -1rem;
+        width: auto;
+    }
+
+    .name-title h2 {
+        font-size: 10px;
+        margin-top: 1rem;
+        text-align: center;
+        letter-spacing: 0.5rem;
+        width: max-content;
+    }
+
+    .bounce {
+        height: 2rem;
+        width: 2rem;
+    }
+    
+    .arrow-down {
+        position: absolute;
+        bottom: 4rem; /* fix button down position */
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /* transform: translateX(-50%); */
+        /* top: -5rem; remove the top property */
+    }
+
+    .download-cv {
+        position: absolute;
+        left: 50%;
+        top: 85%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        max-width: 90%;
+        z-index: 1;
+    }
+
+    .cv-button {
+        width: 100%;
+        max-width: auto;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .name-title {
+        position: absolute;
+        width: auto;
+        text-align: center;
+        top: 47%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .name-title h1 {
+        font-size: 40px;
+        letter-spacing: 0.8rem;
+        margin-bottom: -1rem;
+        width: auto;
+    }
+
+    .name-title h2 {
+        font-size: 20px;
+        margin-top: 1rem;
+        text-align: center;
+        letter-spacing: 0.6rem;
+        width: max-content;
+    }
+}
