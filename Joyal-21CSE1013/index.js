@@ -6,7 +6,7 @@ const observer = new IntersectionObserver((entries)=>{
             entry.target.classList.add("anim");
         }
     })
-}, {threshold:0.5});
+}, {threshold:0.4});
 
 for(let i=0;i<animation_elts.length;i++){
     const el=animation_elts[i];

@@ -15,7 +15,7 @@
     border: none;
     font-family: 'Quicksand', sans-serif;
     font-size: 20px;
-    margin-right:120px;
+    margin-right: 120px;
 }
 a{
     color: white;
@@ -46,16 +46,17 @@ a{
     width: 100%;
     height: 85vh;
     font-size: 32px;
-    background-color:#eff0f3;
+    background-color:white;
     position: absolute;
     left: 0px;
 
 }
+/*#eff0f3;*/
 .non-anim{
     opacity: 0;
 }
 .anim{
-    animation: fadeInLeft 0.7s ease-out;/*slow arrival pref*/
+    animation: fadeInLeft 1s ease-out;/*slow arrival pref*/
     animation-fill-mode: forwards;
     animation-delay: 0.4s;
 }
