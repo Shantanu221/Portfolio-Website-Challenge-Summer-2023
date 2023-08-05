@@ -24,7 +24,8 @@ During the development of this project, the following challenges were encountere
 To run this project locally, follow these steps:
 
 1. Clone the repository to your local machine.
-2. Open the `index.html` file in a web browser to view the website.
+2. Install the dependencies using `npm install`.
+3. Start the development server using `npm start`.
 
 ## Preview
 
