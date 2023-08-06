@@ -22,10 +22,6 @@ a{
     text-decoration: none;
 }
 
-.main{
-    padding :10vh 10%;
-}
-
 .para{
     font-family: 'Quicksand', sans-serif;
     margin-bottom: 20px;
@@ -49,7 +45,12 @@ a{
     background-color:white;
     position: absolute;
     left: 0px;
+    padding-top: 10vh;
+}
 
+p{
+    display: block;
+    width: 500px;
 }
 /*#eff0f3;*/
 .non-anim{
@@ -60,6 +61,7 @@ a{
     animation-fill-mode: forwards;
     animation-delay: 0.4s;
 }
+
 @keyframes fadeInLeft {
     0% {
        opacity: 0;
@@ -67,6 +69,6 @@ a{
     }
     100% {
        opacity: 1;
-       transform: translateX(0);
+       transform: translateX(100px);
     }
  }
