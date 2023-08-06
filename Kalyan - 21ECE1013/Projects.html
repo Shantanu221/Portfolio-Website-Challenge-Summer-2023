@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Projects</title>
+  <link rel="icon" href="images/favicon.ico">
+
+  <!-- --------$$$$$$$========Bootstrap  link=========$$$$$$$$-------- -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+  <!-- --------$$$$$$$========CSS link=========$$$$$$$$-------- -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- --------$$$$$$$========All app  icons in footer=========$$$$$$$$-------- -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <!-- *******navbar/menu bar link****** -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body style="color: white;">
+
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo"><img src="images/KS_logo.png" alt="logo-image"></a>
+      <ul class="links">
+        <li><a href="index.html" class="text"><span class="icon"><svg stroke="currentColor" fill="currentColor"
+                stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"
+                style="margin-bottom: 2px;">
+                <path
+                  d="M946.5 505L560.1 118.8l-25.9-25.9a31.5 31.5 0 0 0-44.4 0L77.5 505a63.9 63.9 0 0 0-18.8 46c.4 35.2 
+                    29.7 63.3 64.9 63.3h42.5V940h691.8V614.3h43.4c17.1 0 33.2-6.7 45.3-18.8a63.6 63.6 0 0 0 18.7-45.3c0-17-6.7-33.1-18.8-45.2zM568 
+                    868H456V664h112v204zm217.9-325.7V868H632V640c0-22.1-17.9-40-40-40H432c-22.1 0-40 17.9-40 40v228H238.1V542.3h-96l370-369.7 23.1 23.1L882 542.3h-96.1z">
+                </path>
+              </svg></span> Home</a></li>
+        <li><a href="About.html" class="text"><span class="icon"><svg stroke="currentColor" fill="currentColor"
+                stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"
+                style="margin-bottom: 2px;">
+                <path d="M858.5 763.6a374 374 0 0 0-80.6-119.5 375.63 375.63 0 0 0-119.5-80.6c-.4-.2-.8-.3-1.2-.5C719.5 518 760 444.7 760 
+                    362c0-137-111-248-248-248S264 225 264 362c0 82.7 40.5 156 102.8 201.1-.4.2-.8.3-1.2.5-44.8 18.9-85 46-119.5 80.6a375.63 375.63 0 0 0-80.6 119.5A371.7 371.7 0 0 0 
+                    136 901.8a8 8 0 0 0 8 8.2h60c4.4 0 7.9-3.5 8-7.8 2-77.2 33-149.5 87.8-204.3 56.7-56.7 132-87.9 212.2-87.9s155.5 31.2 212.2 87.9C779 752.7 810 825 812 902.2c.1 4.4 3.6
+                    7.8 8 7.8h60a8 8 0 0 0 8-8.2c-1-47.8-10.9-94.3-29.5-138.2zM512 534c-45.9 0-89.1-17.9-121.6-50.4S340 407.9 340 362c0-45.9 17.9-89.1 50.4-121.6S466.1 190 512 190s89.1 17.9 
+                    121.6 50.4S684 316.1 684 362c0 45.9-17.9 89.1-50.4 121.6S557.9 534 512 534z"></path>
+              </svg> </span>About</a></li>
+        <li><a href="Projects.html" class="text"><span class="icon"><svg stroke="currentColor" fill="currentColor"
+                stroke-width="0" t="1569683753031" viewBox="0 0 1024 1024" version="1.1" height="1em" width="1em"
+                xmlns="http://www.w3.org/2000/svg" style="margin-bottom: 2px;">
+                <defs></defs>
+                <path d="M312.1 591.5c3.1 3.1 8.2 3.1 11.3 0l101.8-101.8 86.1 86.2c3.1 3.1 8.2 3.1 11.3 0l226.3-226.5c3.1-3.1 3.1-8.2 0-11.3l-36.8-36.8c-3.1-3.1-8.2-3.1-11.3
+                     0L517 485.3l-86.1-86.2c-3.1-3.1-8.2-3.1-11.3 0L275.3 543.4c-3.1 3.1-3.1 8.2 0 11.3l36.8 36.8z">
+                </path>
+                <path d="M904 160H548V96c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H120c-17.7 0-32 14.3-32 32v520c0 
+                     17.7 14.3 32 32 32h356.4v32L311.6 884.1c-3.7 2.4-4.7 7.3-2.3 11l30.3 47.2v0.1c2.4 3.7 7.4 4.7 11.1 2.3L512 838.9l161.3 105.8c3.7 2.4 8.7 1.4 11.1-2.3v-0.1l30.3-47.2c2.4-3.7 1.3-8.6-2.3-11L548 776.3V744h356c17.7 
+                     0 32-14.3 32-32V192c0-17.7-14.3-32-32-32z m-40 512H160V232h704v440z"></path>
+              </svg></span> Projects</a></li>
+        <li><a href="https://drive.google.com/file/d/1QY2MLcsTv1ssecVx7v0ycWLHVMpawLKB/view?usp=drive_link"
+            class="text"><span class="icon"><svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24"
+                height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="margin-bottom: 2px;">
+                <path d="M7 18H17V16H7V18Z" fill="currentColor"></path>
+                <path d="M17 14H7V12H17V14Z" fill="currentColor"></path>
+                <path d="M7 10H11V8H7V10Z" fill="currentColor"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M6 2C4.34315 2 3 3.34315 3 5V19C3 20.6569 4.34315 22 6 22H18C19.6569 22 21 20.6569 21 19V9C21 5.13401 17.866 2 14 2H6ZM6 4H13V9H19V19C19 19.5523 18.5523 20 18 20H6C5.44772 
+                    20 5 19.5523 5 19V5C5 4.44772 5.44772 4 6 4ZM15 4.10002C16.6113 4.4271 17.9413 5.52906 18.584 7H15V4.10002Z" fill="currentColor"></path>
+              </svg></span> Resume</a></li>
+        <li><a href="Experience.html" class="text"><span class="icon"><svg stroke="currentColor" fill="currentColor"
+                stroke-width="0" version="1.1" viewBox="0 0 16 16" height="1em" width="1em"
+                xmlns="http://www.w3.org/2000/svg" style="margin-bottom: 2px;">
+                <path
+                  d="M6 0v1.5c1.148 0 2.261 0.225 3.308 0.667 1.012 0.428 1.921 1.041 2.702 1.822s1.394 1.69 1.822 2.702c0.443 1.047 0.667 2.16 0.667 3.308h1.5c0-5.523-4.477-10-10-10z">
+                </path>
+                <path d="M6 3v1.5c1.469 0 2.85 0.572 3.889 1.611s1.611 2.42 1.611 3.889h1.5c0-3.866-3.134-7-7-7z">
+                </path>
+                <path
+                  d="M7.5 6l-1 1-3.5 1-3 6.5 0.396 0.396 3.638-3.638c-0.022-0.083-0.034-0.169-0.034-0.259
+                     0-0.552 0.448-1 1-1s1 0.448 1 1-0.448 1-1 1c-0.090 0-0.176-0.012-0.259-0.034l-3.638 3.638 0.396 0.396 6.5-3 1-3.5 1-1-2.5-2.5z">
+                </path>
+              </svg></span> Experience</a></li>
+      </ul>
+
+      <!-- ====dropdown menu===== -->
+
+      <div class="menu" onclick="toggleMenu()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <div class="dropdown_menu" id="dropdownMenu">
+        <li><a href="index.html" class="icon"><span class="text"><svg stroke="currentColor" fill="currentColor"
+                stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"
+                style="margin-bottom: 2px;">
+                <path
+                  d="M946.5 505L560.1 118.8l-25.9-25.9a31.5 31.5 0 0 0-44.4 0L77.5 505a63.9 63.9 0 0 0-18.8 46c.4 35.2 
+                        29.7 63.3 64.9 63.3h42.5V940h691.8V614.3h43.4c17.1 0 33.2-6.7 45.3-18.8a63.6 63.6 0 0 0 18.7-45.3c0-17-6.7-33.1-18.8-45.2zM568 
+                        868H456V664h112v204zm217.9-325.7V868H632V640c0-22.1-17.9-40-40-40H432c-22.1 0-40 17.9-40 40v228H238.1V542.3h-96l370-369.7 23.1 23.1L882 542.3h-96.1z">
+                </path>
+              </svg></span> Home</a></li>
+        <li><a href="About.html" class="icon_text"><span class="text"><svg stroke="currentColor" fill="currentColor"
+                stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"
+                style="margin-bottom: 2px;">
+                <path d="M858.5 763.6a374 374 0 0 0-80.6-119.5 375.63 375.63 0 0 0-119.5-80.6c-.4-.2-.8-.3-1.2-.5C719.5 518 760 444.7 760 
+                        362c0-137-111-248-248-248S264 225 264 362c0 82.7 40.5 156 102.8 201.1-.4.2-.8.3-1.2.5-44.8 18.9-85 46-119.5 80.6a375.63 375.63 0 0 0-80.6 119.5A371.7 371.7 0 0 0 
+                        136 901.8a8 8 0 0 0 8 8.2h60c4.4 0 7.9-3.5 8-7.8 2-77.2 33-149.5 87.8-204.3 56.7-56.7 132-87.9 212.2-87.9s155.5 31.2 212.2 87.9C779 752.7 810 825 812 902.2c.1 4.4 3.6
+                        7.8 8 7.8h60a8 8 0 0 0 8-8.2c-1-47.8-10.9-94.3-29.5-138.2zM512 534c-45.9 0-89.1-17.9-121.6-50.4S340 407.9 340 362c0-45.9 17.9-89.1 50.4-121.6S466.1 190 512 190s89.1 17.9 
+                        121.6 50.4S684 316.1 684 362c0 45.9-17.9 89.1-50.4 121.6S557.9 534 512 534z"></path>
+              </svg></span> About</a></li>
+        <li><a href="Projects.html" class="icon_text"><span class="text"><svg stroke="currentColor" fill="currentColor"
+                stroke-width="0" t="1569683753031" viewBox="0 0 1024 1024" version="1.1" height="1em" width="1em"
+                xmlns="http://www.w3.org/2000/svg" style="margin-bottom: 2px;">
+                <defs></defs>
+                <path
+                  d="M312.1 591.5c3.1 3.1 8.2 3.1 11.3 0l101.8-101.8 86.1 86.2c3.1 3.1 8.2 3.1 11.3 0l226.3-226.5c3.1-3.1 3.1-8.2 0-11.3l-36.8-36.8c-3.1-3.1-8.2-3.1-11.3
+                         0L517 485.3l-86.1-86.2c-3.1-3.1-8.2-3.1-11.3 0L275.3 543.4c-3.1 3.1-3.1 8.2 0 11.3l36.8 36.8z">
+                </path>
+                <path d="M904 160H548V96c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H120c-17.7 0-32 14.3-32 32v520c0 
+                         17.7 14.3 32 32 32h356.4v32L311.6 884.1c-3.7 2.4-4.7 7.3-2.3 11l30.3 47.2v0.1c2.4 3.7 7.4 4.7 11.1 2.3L512 838.9l161.3 105.8c3.7 2.4 8.7 1.4 11.1-2.3v-0.1l30.3-47.2c2.4-3.7 1.3-8.6-2.3-11L548 776.3V744h356c17.7 
+                         0 32-14.3 32-32V192c0-17.7-14.3-32-32-32z m-40 512H160V232h704v440z"></path>
+              </svg></span> Projects</a></li>
+        <li><a href="https://drive.google.com/file/d/1QY2MLcsTv1ssecVx7v0ycWLHVMpawLKB/view?usp=drive_link"
+            class="icon_text"><span class="text"><svg stroke="currentColor" fill="none" stroke-width="0"
+                viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"
+                style="margin-bottom: 2px;">
+                <path d="M7 18H17V16H7V18Z" fill="currentColor"></path>
+                <path d="M17 14H7V12H17V14Z" fill="currentColor"></path>
+                <path d="M7 10H11V8H7V10Z" fill="currentColor"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M6 2C4.34315 2 3 3.34315 3 5V19C3 20.6569 4.34315 22 6 22H18C19.6569 22 21 20.6569 21 19V9C21 5.13401 17.866 2 14 2H6ZM6 4H13V9H19V19C19 19.5523 18.5523 20 18 20H6C5.44772 
+                        20 5 19.5523 5 19V5C5 4.44772 5.44772 4 6 4ZM15 4.10002C16.6113 4.4271 17.9413 5.52906 18.584 7H15V4.10002Z" fill="currentColor"></path>
+              </svg></span> Resume</a></li>
+        <li><a href="Experience.html" class="icon_text"><span class="text"><svg stroke="currentColor"
+                fill="currentColor" stroke-width="0" version="1.1" viewBox="0 0 16 16" height="1em" width="1em"
+                xmlns="http://www.w3.org/2000/svg" style="margin-bottom: 2px;">
+                <path
+                  d="M6 0v1.5c1.148 0 2.261 0.225 3.308 0.667 1.012 0.428 1.921 1.041 2.702 1.822s1.394 1.69 1.822 2.702c0.443 1.047 0.667 2.16 0.667 3.308h1.5c0-5.523-4.477-10-10-10z">
+                </path>
+                <path d="M6 3v1.5c1.469 0 2.85 0.572 3.889 1.611s1.611 2.42 1.611 3.889h1.5c0-3.866-3.134-7-7-7z">
+                </path>
+                <path
+                  d="M7.5 6l-1 1-3.5 1-3 6.5 0.396 0.396 3.638-3.638c-0.022-0.083-0.034-0.169-0.034-0.259
+                         0-0.552 0.448-1 1-1s1 0.448 1 1-0.448 1-1 1c-0.090 0-0.176-0.012-0.259-0.034l-3.638 3.638 0.396 0.396 6.5-3 1-3.5 1-1-2.5-2.5z">
+                </path>
+              </svg></span> Experience</a></li>
+      </div>
+    </nav>
+  </header>
+
+  <!-- *************$$$$$$$$$$===============Projects Section================$$$$$$$$$$$$*************** -->
+  <!-- *************$$$$$$$$$$===============Projects Section================$$$$$$$$$$$$*************** -->
+
+  <div class="container">
+   <center>
+    <h1 class="project-heading" >My <strong class="cyan">Projects </strong></h1>
+    <p style="color: rgb(234, 0, 255); margin-bottom: 50px;">Here are some projects I've worked on recently.</p>
+  </center>
+    <div class="row" style="justify-content: center; padding-bottom: 10px; margin: 30px;">
+      <div class="project-card col-md-6">
+        <div class="project-card-view card " id="card-class" style="background-color: black; color: #FDFEFF; border: 3px solid cyan; margin: 25px; font-weight:450; transform:scale(1.05); z-index: -1;">
+          <img class="card-img-top" src="./images/Rakrish_Pets.png" alt="card-img">
+          <div class="card-body">
+            <div class="card-title h5">
+              <strong class="cyan">RaKrish_Pets</strong>
+            </div>
+            <p class="card-text" style="text-align: justify;">Rakrish_Pets is a comprehensive website dedicated to connecting pet-loving customers with their perfect canine companions. Offering a 
+              wide range of dog services and amenities, it's a one-stop destination for anyone seeking to provide the best care for their beloved pets.</p>
+              <a role="button" tabindex="0" href="https://github.com/kalyan123s/RaKrish_Pets" target="_blank" class="btn btn-primary"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 
+                  1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 
+                  2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z">
+                </path>
+              </svg> &nbsp;GitHub</a>
+
+            <a role="button" tabindex="0" href="https://kalyan123s.github.io/RaKrish_Pets/" target="_blank" class="btn btn-primary"
+              style="margin-left: 10px;"><svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24"
+                height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M14 7C13.4477 7 13 7.44772 13 8V16C13 16.5523 13.4477 17 14 17H18C18.5523 17 19 16.5523 19 16V8C19 7.44772 18.5523 7 18 7H14ZM17 9H15V15H17V9Z"
+                  fill="currentColor"></path>
+                <path
+                  d="M6 7C5.44772 7 5 7.44772 5 8C5 8.55228 5.44772 9 6 9H10C10.5523 9 11 8.55228 11 8C11 7.44772 10.5523 7 10 7H6Z"
+                  fill="currentColor"></path>
+                <path
+                  d="M6 11C5.44772 11 5 11.4477 5 12C5 12.5523 5.44772 13 6 13H10C10.5523 13 11 12.5523 11 12C11 11.4477 10.5523 11 10 11H6Z"
+                  fill="currentColor"></path>
+                <path
+                  d="M5 16C5 15.4477 5.44772 15 6 15H10C10.5523 15 11 15.4477 11 16C11 16.5523 10.5523 17 10 17H6C5.44772 17 5 16.5523 5 16Z"
+                  fill="currentColor"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M4 3C2.34315 3 1 4.34315 1 6V18C1 19.6569 2.34315 21 4 21H20C21.6569 21 23 19.6569 23 18V6C23 4.34315 21.6569 3 20 3H4ZM20 5H4C3.44772 5 3 5.44772 3 6V18C3 18.5523 3.44772 19 4 19H20C20.5523
+                  19 21 18.5523 21 18V6C21 5.44772 20.5523 5 20 5Z" fill="currentColor"></path>
+              </svg> &nbsp;View</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card col-md-6">
+        <div class="project-card-view card" id="card-class" style="background-color: black; color: #FDFEFF; border: 3px solid cyan; margin: 25px; font-weight:450; transform:scale(1.05); z-index: -1;">
+          <img class="card-img-top" src="./images/Symphony_Saga.png" alt="card-img">
+          <div class="card-body">
+            <div class="card-title h5"> <strong class="cyan">Symphony-Saga</strong></div>
+            <p class="card-text" style="text-align: justify;">Welcome to Symphony-Saga, the ultimate destination for music enthusiasts! 
+              Immerse yourself in the joy of playing virtual drums, guitar, sitar, harmonium, and more. Experience the rhythm and harmony
+               in this interactive and fun-filled game website.!</p>
+            <a role="button" tabindex="0" href="https://github.com/kalyan123s/Symphony-Saga" target="_blank" class="btn btn-primary"><svg
+                stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87
+                   2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 
+                   2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z">
+                </path>
+              </svg> &nbsp;GitHub</a>
+
+            <a role="button" tabindex="0" href="https://kalyan123s.github.io/Symphony-Saga/" target="_blank" class="btn btn-primary"
+              style="margin-left: 10px;"><svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24"
+                height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M14 7C13.4477 7 13 7.44772 13 8V16C13 16.5523 13.4477 17 14 17H18C18.5523 17 19 16.5523 19 16V8C19 7.44772 18.5523 7 18 7H14ZM17 9H15V15H17V9Z"
+                  fill="currentColor"></path>
+                <path
+                  d="M6 7C5.44772 7 5 7.44772 5 8C5 8.55228 5.44772 9 6 9H10C10.5523 9 11 8.55228 11 8C11 7.44772 10.5523 7 10 7H6Z"
+                  fill="currentColor"></path>
+                <path
+                  d="M6 11C5.44772 11 5 11.4477 5 12C5 12.5523 5.44772 13 6 13H10C10.5523 13 11 12.5523 11 12C11 11.4477 10.5523 11 10 11H6Z"
+                  fill="currentColor"></path>
+                <path
+                  d="M5 16C5 15.4477 5.44772 15 6 15H10C10.5523 15 11 15.4477 11 16C11 16.5523 10.5523 17 10 17H6C5.44772 17 5 16.5523 5 16Z"
+                  fill="currentColor"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M4 3C2.34315 3 1 4.34315 1 6V18C1 19.6569 2.34315 21 4 21H20C21.6569 21 23 19.6569 23 18V6C23 4.34315 21.6569 3 20 3H4ZM20 5H4C3.44772 5 3 5.44772 3 6V18C3 18.5523 3.44772 19 4 19H20C20.5523
+                  19 21 18.5523 21 18V6C21 5.44772 20.5523 5 20 5Z"
+                  fill="currentColor"></path>
+              </svg> &nbsp;View</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card col-md-6">
+        <div class="project-card-view card" id="card-class" style="background-color: black; color: #FDFEFF; border: 3px solid cyan; margin: 25px; font-weight:450; transform:scale(1.05); z-index: -1;">
+          <img class="card-img-top" src="./images/Dice_Game.png" alt="card-img">
+          <div class="card-body">
+            <div class="card-title h5"><strong class="cyan">Dice_Game</strong></div>
+            <p class="card-text" style="text-align: justify;">Welcome to Dice_game! Experience the thrill of playing Ludo against the computer or 
+              challenge yourself in a classic Rock-Paper-Scissors showdown. Fun for all, this website is your gateway to endless gaming excitement!.This website is made using HTML, CSS and JS.</p>
+            <a role="button" tabindex="0" href="https://github.com/kalyan123s/Dice_Game" target="_blank"
+              class="btn btn-primary"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 
+                  1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04
+                   2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z">
+                </path>
+              </svg> &nbsp;GitHub</a>
+
+            <a role="button" tabindex="0" href="https://github.com/kalyan123s/Dice_Game" target="_blank"
+              class="btn btn-primary" style="margin-left: 10px;"><svg stroke="currentColor" fill="none" stroke-width="0"
+                viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M14 7C13.4477 7 13 7.44772 13 8V16C13 16.5523 13.4477 17 14 17H18C18.5523 17 19 16.5523 19 16V8C19 7.44772 18.5523 7 18 7H14ZM17 9H15V15H17V9Z"
+                  fill="currentColor"></path>
+                <path
+                  d="M6 7C5.44772 7 5 7.44772 5 8C5 8.55228 5.44772 9 6 9H10C10.5523 9 11 8.55228 11 8C11 7.44772 10.5523 7 10 7H6Z"
+                  fill="currentColor"></path>
+                <path
+                  d="M6 11C5.44772 11 5 11.4477 5 12C5 12.5523 5.44772 13 6 13H10C10.5523 13 11 12.5523 11 12C11 11.4477 10.5523 11 10 11H6Z"
+                  fill="currentColor"></path>
+                <path
+                  d="M5 16C5 15.4477 5.44772 15 6 15H10C10.5523 15 11 15.4477 11 16C11 16.5523 10.5523 17 10 17H6C5.44772 17 5 16.5523 5 16Z"
+                  fill="currentColor"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M4 3C2.34315 3 1 4.34315 1 6V18C1 19.6569 2.34315 21 4 21H20C21.6569 21 23 19.6569 23 18V6C23 4.34315 21.6569 3 20 3H4ZM20 5H4C3.44772 5 
+                  3 5.44772 3 6V18C3 18.5523 3.44772 19 4 19H20C20.5523 19 21 18.5523 21 18V6C21 5.44772 20.5523 5 20 5Z"
+                  fill="currentColor"></path>
+              </svg> &nbsp;View</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card col-md-6">
+        <div class="project-card-view card" id="card-class" style="background-color: black; color: #FDFEFF; border: 3px solid cyan; margin: 25px; font-weight:450; transform:scale(1.05); z-index: -1;">
+          <img class="card-img-top" src="./images/My_CV.png" alt="card-img">
+          <div class="card-body">
+            <div class="card-title h5"><strong class="cyan">My_CV</strong> </div>
+            <p class="card-text" style="text-align: justify;">This is a visually captivating website showcasing my personal journey, projects, and educational achievements. Explore my world, 
+              where you'll discover the essence of who I am and the remarkable endeavors that define my career.</p>
+              <a role="button" tabindex="0" href="https://github.com/kalyan123s/My_CV" target="_blank"
+              class="btn btn-primary"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58
+                   1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 
+                   1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z">
+                </path>
+              </svg> &nbsp;GitHub</a>
+
+            <a role="button" tabindex="0" href="https://kalyan123s.github.io/My_CV/" target="_blank"
+              class="btn btn-primary" style="margin-left: 10px;"><svg stroke="currentColor" fill="none" stroke-width="0"
+                viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M14 7C13.4477 7 13 7.44772 13 8V16C13 16.5523 13.4477 17 14 17H18C18.5523 17 19 16.5523 19 16V8C19 7.44772 18.5523 7 18 7H14ZM17 9H15V15H17V9Z"
+                  fill="currentColor"></path>
+                <path
+                  d="M6 7C5.44772 7 5 7.44772 5 8C5 8.55228 5.44772 9 6 9H10C10.5523 9 11 8.55228 11 8C11 7.44772 10.5523 7 10 7H6Z"
+                  fill="currentColor"></path>
+                <path
+                  d="M6 11C5.44772 11 5 11.4477 5 12C5 12.5523 5.44772 13 6 13H10C10.5523 13 11 12.5523 11 12C11 11.4477 10.5523 11 10 11H6Z"
+                  fill="currentColor"></path>
+                <path
+                  d="M5 16C5 15.4477 5.44772 15 6 15H10C10.5523 15 11 15.4477 11 16C11 16.5523 10.5523 17 10 17H6C5.44772 17 5 16.5523 5 16Z"
+                  fill="currentColor"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M4 3C2.34315 3 1 4.34315 1 6V18C1 19.6569 2.34315 21 4 21H20C21.6569 21 23 19.6569 23 18V6C23 4.34315 21.6569 3 20 3H4ZM20 5H4C3.44772 5 3 5.44772 3 6V18C3 18.5523 3.44772 19 4 
+                  19H20C20.5523 19 21 18.5523 21 18V6C21 5.44772 20.5523 5 20 5Z"
+                  fill="currentColor"></path>
+              </svg> &nbsp;View</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card col-md-6">
+        <div class="project-card-view card" id="card-class" style="background-color: black; color: #FDFEFF; border: 3px solid cyan; margin: 25px; font-weight:450; transform:scale(1.05); z-index: -1;">
+          <img class="card-img-top" src="./images/My_website.png" alt="card-img">
+          <div class="card-body">
+            <div class="card-title h5"><strong class="cyan">My_website</strong></div>
+            <p class="card-text" style="text-align: justify;">Welcome to My_website, a stunning showcase of everything about me! This personal website offers a glimpse into my world, featuring my projects, 
+              hobbies, and contact details. Get to know me better and explore my passion for creativity and innovation through this captivating online portfolio, made using only HTML and CSS.</p>
+              <a role="button" tabindex="0" href="https://github.com/kalyan123s/My_website" target="_blank" class="btn btn-primary">
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 
+                  1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 
+                  0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012
+                   8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z">
+                </path>
+              </svg> &nbsp;GitHub</a>
+
+            <a role="button" tabindex="0" href="https://kalyan123s.github.io/My_website/" target="_blank"
+              class="btn btn-primary" style="margin-left: 10px;"><svg stroke="currentColor" fill="none" stroke-width="0"
+                viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M14 7C13.4477 7 13 7.44772 13 8V16C13 16.5523 13.4477 17 14 17H18C18.5523 17 19 16.5523 19 16V8C19 7.44772 18.5523 7 18 7H14ZM17 9H15V15H17V9Z"
+                  fill="currentColor"></path>
+                <path
+                  d="M6 7C5.44772 7 5 7.44772 5 8C5 8.55228 5.44772 9 6 9H10C10.5523 9 11 8.55228 11 8C11 7.44772 10.5523 7 10 7H6Z"
+                  fill="currentColor"></path>
+                <path
+                  d="M6 11C5.44772 11 5 11.4477 5 12C5 12.5523 5.44772 13 6 13H10C10.5523 13 11 12.5523 11 12C11 11.4477 10.5523 11 10 11H6Z"
+                  fill="currentColor"></path>
+                <path
+                  d="M5 16C5 15.4477 5.44772 15 6 15H10C10.5523 15 11 15.4477 11 16C11 16.5523 10.5523 17 10 17H6C5.44772 17 5 16.5523 5 16Z"
+                  fill="currentColor"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M4 3C2.34315 3 1 4.34315 1 6V18C1 19.6569 2.34315 21 4 21H20C21.6569 21 23 19.6569 23 18V6C23 4.34315 21.6569 3 20 3H4ZM20 5H4C3.44772 5 3 5.44772 3 6V18C3 18.5523 3.44772 19 4 19H20C20.5523 19 21 18.5523 21 18V6C21 5.44772 20.5523 5 20 5Z"
+                  fill="currentColor"></path>
+              </svg> &nbsp;view</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card col-md-6">
+        <div class="project-card-view card" id="card-class" style="background-color: black; color: #FDFEFF; border: 3px solid cyan; margin: 25px; font-weight:450; transform:scale(1.05); z-index: -1;">
+          <img class="card-img-top" src="./images/Portfolio.png" alt="card-img">
+          <div class="card-body">
+            <div class="card-title h5"><strong class="cyan">Portfolio</strong></div>
+            <p class="card-text" style="text-align: justify;">Welcome to my stunning web design portfolio, named "Portfolio". This HTML-only website introduces me, highlighting my interests in top-ranked movies, while also offering 
+              insights into my hobbies and providing a convenient way to get in touch. Explore my world through this creatively crafted online space!</p>
+              <a role="button" tabindex="0" href="https://github.com/kalyan123s/Portfolio" target="_blank" class="btn btn-primary">
+                <svg  stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58
+                   1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27
+                    1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z">
+                </path>
+              </svg> &nbsp;GitHub</a>
+
+            <a role="button" tabindex="0" href="https://kalyan123s.github.io/Portfolio/" target="_blank"
+              class="btn btn-primary" style="margin-left: 10px;"><svg stroke="currentColor" fill="none" stroke-width="0"
+                viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M14 7C13.4477 7 13 7.44772 13 8V16C13 16.5523 13.4477 17 14 17H18C18.5523 17 19 16.5523 19 16V8C19 7.44772 18.5523 7 18 7H14ZM17 9H15V15H17V9Z"
+                  fill="currentColor"></path>
+                <path
+                  d="M6 7C5.44772 7 5 7.44772 5 8C5 8.55228 5.44772 9 6 9H10C10.5523 9 11 8.55228 11 8C11 7.44772 10.5523 7 10 7H6Z"
+                  fill="currentColor"></path>
+                <path
+                  d="M6 11C5.44772 11 5 11.4477 5 12C5 12.5523 5.44772 13 6 13H10C10.5523 13 11 12.5523 11 12C11 11.4477 10.5523 11 10 11H6Z"
+                  fill="currentColor"></path>
+                <path
+                  d="M5 16C5 15.4477 5.44772 15 6 15H10C10.5523 15 11 15.4477 11 16C11 16.5523 10.5523 17 10 17H6C5.44772 17 5 16.5523 5 16Z"
+                  fill="currentColor"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M4 3C2.34315 3 1 4.34315 1 6V18C1 19.6569 2.34315 21 4 21H20C21.6569 21 23 19.6569 23 18V6C23 4.34315 21.6569 3 20 3H4ZM20 5H4C3.44772 5 3 5.44772 3 6V18C3 18.5523 3.44772 19 
+                  4 19H20C20.5523 19 21 18.5523 21 18V6C21 5.44772 20.5523 5 20 5Z"
+                  fill="currentColor"></path>
+              </svg> &nbsp;view</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- *************$$$$$$$$$$===============Footer Section================$$$$$$$$$$$$*************** -->
+  <!-- *************$$$$$$$$$$===============Footer Section================$$$$$$$$$$$$*************** -->
+
+  <footer id="footer" class="footer-section">
+    <div class="footer-content">
+      <div class="top-footer-text">
+        <center>
+          <h1>FIND ME ON</h1>
+          <p class="tagline">Feel free to <span style="color:rgb(210, 12, 210);"><i>connect</i></span> with me</p>
+        </center>
+      </div>
+
+      <center>
+        <div class="All-contacts">
+          <a href="https://www.linkedin.com/in/kalyan-sharma-23b7ab229/" class="icon linkdin" target="_blank"
+            aria-label="Visit us on Linkedin" title="Linkedin" rel="noopener noreferrer">
+            <!-- <div class="tooltip">Linkedin</div> -->
+            <span><i class="fab fa-linkedin"></i></span>
+          </a>
+          <a href="https://github.com/kalyan123s" class="icon github" target="_blank" aria-label="Visit us on Github"
+            title="Github" rel="noopener noreferrer">
+            <!-- <div class="tooltip">Github</div> -->
+            <span><i class="fab fa-github"></i></span>
+          </a>
+          <a href="https://discord.com/channels/@me" class="icon discord" target="_blank"
+            aria-label="Join with us on Discord" title="Discord" rel="noopener noreferrer">
+            <!-- <div class="tooltip">Discord</div> -->
+            <span><i class="fab fa-discord"></i></span>
+          </a>
+          <a href="https://www.instagram.com/k_sharmazing143/" class="icon instagram" target="_blank"
+            aria-label="Visit us on Instagram" title="Instagram" rel="noopener noreferrer">
+            <!-- <div class="tooltip">Instagram</div> -->
+            <span><i class="fab fa-instagram"></i></span>
+          </a>
+        </div>
+    </div>
+    </center>
+
+    <div>
+      <div class="footer-copyright">
+        <center>
+          <h5>Made with ❣️ by <em>Kalyan Sharma</em></h5>
+        </center>
+      </div>
+    </div>
+
+  </footer>
+
+
+  <!-- -----------$$$$$$=====jQuery file=======$$$$$------------ -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+  <!-- Bootstrap scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+
+  <!-- -----------$$$$$$=====Javascript file=======$$$$$------------ -->
+  <script src="./index.js" type="text/Javascript"></script>
+</body>
+
+</html>
