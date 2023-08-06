@@ -8,7 +8,7 @@ When the projects link on the home page is pressed, the page scrolls down to the
 #NOTE!:
 All of the text written in the projects section is false. I needed a lot of text to make the website look good and I havent done any major projects yet so I decided to use false text.
 
-#Images Used:
+#Images:
 ![Home-Page-1](./ScreenShots/img1.jpg)
 ![Home-Page-2](./ScreenShots/img2.jpg)
 ![Home-Page-3](./ScreenShots/img3.jpg)
