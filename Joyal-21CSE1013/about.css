@@ -50,7 +50,7 @@ a{
 }
 
 .anim-up{
-    animation: fadeInUp 0.7s ease-out;/*slow arrival pref*/
+    animation: fadeInUp 0.8s ease-out;
     animation-fill-mode: forwards;
     animation-delay: 0.2s;
 }
