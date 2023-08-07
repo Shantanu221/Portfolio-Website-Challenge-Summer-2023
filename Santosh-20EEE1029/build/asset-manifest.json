@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bb12879f.css",
+    "main.js": "/static/js/main.77fb429d.js",
+    "static/media/Crypto.png": "/static/media/Crypto.1c1f96aa759f4bacb2dd.png",
+    "static/media/National_Institute_of_Oceanography_logo.jpeg": "/static/media/National_Institute_of_Oceanography_logo.a7c9d66bbfb12cd95b1d.jpeg",
+    "static/media/Sales.png": "/static/media/Sales.54690cd4cba7ea67b03e.png",
+    "static/media/Eamil.png": "/static/media/Eamil.6530ae35cd56991bfafc.png",
+    "static/media/Maven.png": "/static/media/Maven.177cfa80c451de130c32.png",
+    "static/media/waterlevel.png": "/static/media/waterlevel.7f256127d5ad38ed9709.png",
+    "static/media/Santosh_Resume.pdf": "/static/media/Santosh_Resume.28fd6fedf700d43bab44.pdf",
+    "static/media/react.png": "/static/media/react.931696c6c8fc9bf736ab.png",
+    "static/media/NIT_Goa_logo.png": "/static/media/NIT_Goa_logo.5d9c51c894167234a50b.png",
+    "static/media/prem photo.jpg": "/static/media/prem photo.614bc19d582e3922e50a.jpg",
+    "static/media/irrigation.jpg": "/static/media/irrigation.b029b00a23dcbf5413b9.jpg",
+    "static/media/holy.jpg": "/static/media/holy.f296c474b65576dd6ff7.jpg",
+    "static/media/Ms.png": "/static/media/Ms.0a8ffb35d26483f969b8.png",
+    "static/media/pb.png": "/static/media/pb.3a4bd7387d81ff1fd864.png",
+    "static/media/css.png": "/static/media/css.77584bd0d7d6352cdd02.png",
+    "static/media/html.png": "/static/media/html.5ce2422bd7f0b18c9b56.png",
+    "static/media/js.png": "/static/media/js.6c8cd84fc3925f60835e.png",
+    "static/media/spark.webp": "/static/media/spark.00e2912b9d9fef4ab9fc.webp",
+    "index.html": "/index.html",
+    "main.bb12879f.css.map": "/static/css/main.bb12879f.css.map",
+    "main.77fb429d.js.map": "/static/js/main.77fb429d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb12879f.css",
+    "static/js/main.77fb429d.js"
+  ]
+}
